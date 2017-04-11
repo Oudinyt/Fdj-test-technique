@@ -1,0 +1,84 @@
+/************************************************************
+  Reset CSS.
+************************************************************/
+
+html {
+    font-family: sans-serif; /* 1 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-size: 100%;
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    background: #ddd url(assets/images/bg.png) repeat top left;
+    font-weight: 400;
+    color: #186B9E;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+/************************************************************
+  CSS Element
+************************************************************/
+
+.row {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.button {
+    display: inline-flex;
+    color: #F4F4F4;
+    padding: 10px 20px;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    justify-content: flex-start;
+    line-height: 1.5;
+    position: relative;
+    vertical-align: middle;
+    border: 0;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.button_run{
+    background-color: #E45800;
+}
+
+.button_reset{
+    background-color: #004799;
+}
+
+
+.input {
+    align-items: center;
+    border-radius: 3px;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2.285em;
+    justify-content: flex-start;
+    line-height: 1.5;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    position: relative;
+    vertical-align: middle;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    color: #363636;
+    box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
+    max-width: 100%;
+}
